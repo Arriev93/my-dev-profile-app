@@ -10,6 +10,8 @@ import { TopNavbarComponent } from './top-navbar/top-navbar.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { CurriculumVitaeComponent } from './curriculum-vitae/curriculum-vitae.component';
+import { TopJumbotronComponent } from './top-jumbotron/top-jumbotron.component';
+import { EmailComponent } from './email/email.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { CurriculumVitaeComponent } from './curriculum-vitae/curriculum-vitae.co
     TopNavbarComponent,
     ProjectsComponent,
     ContactComponent,
-    CurriculumVitaeComponent
+    CurriculumVitaeComponent,
+    TopJumbotronComponent,
+    EmailComponent
   ],
   imports: [
     BrowserModule,
