@@ -28,3 +28,7 @@ small {
     background-color: #797979;
     border-color: #5c5c5c;
 }
+
+.white-text {
+    color: white !important;
+}
