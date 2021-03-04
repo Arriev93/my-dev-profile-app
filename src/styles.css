@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+.main-background-color {
+    background-image: url(assets/content/y-so-serious.png);
+    background-repeat: repeat;
+}
+
+h1 {
+    color: white !important;
+}
+
+label {
+    color:white !important;
+}
+
+small {
+    color:white !important;
+}
+
+.jumbotron-image {
+    background-color: rgb(54, 54, 54);
+    background-image: url(assets/content/beautiful-morning-mountain-forest-scenery-picjumbo-com.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.primary-button-color {
+    color: #fff;
+    background-color: #797979;
+    border-color: #5c5c5c;
+}
