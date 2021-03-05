@@ -15,6 +15,7 @@ import { EmailComponent } from './email/email.component';
 import { WorkHistoryComponent } from './work-history/work-history.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ToastrModule } from 'ngx-toastr';
     CurriculumVitaeComponent,
     TopJumbotronComponent,
     EmailComponent,
-    WorkHistoryComponent
+    WorkHistoryComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
