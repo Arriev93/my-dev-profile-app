@@ -13,6 +13,8 @@ import { CurriculumVitaeComponent } from './curriculum-vitae/curriculum-vitae.co
 import { TopJumbotronComponent } from './top-jumbotron/top-jumbotron.component';
 import { EmailComponent } from './email/email.component';
 import { WorkHistoryComponent } from './work-history/work-history.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -30,9 +32,11 @@ import { WorkHistoryComponent } from './work-history/work-history.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { } 
