@@ -30,7 +30,8 @@
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css",
-              "node_modules/ngx-toastr/toastr.css"
+              "node_modules/ngx-toastr/toastr.css",
+              "src/assets/content/font-awesome-4.7.0/css/font-awesome.css"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.js",
