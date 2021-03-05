@@ -32,3 +32,11 @@ small {
 .white-text {
     color: white !important;
 }
+
+.black-text {
+    color: black !important;
+}
+
+.ul-no-bullets {
+    list-style-type: none;
+}

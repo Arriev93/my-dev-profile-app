@@ -12,6 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { CurriculumVitaeComponent } from './curriculum-vitae/curriculum-vitae.component';
 import { TopJumbotronComponent } from './top-jumbotron/top-jumbotron.component';
 import { EmailComponent } from './email/email.component';
+import { WorkHistoryComponent } from './work-history/work-history.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { EmailComponent } from './email/email.component';
     ContactComponent,
     CurriculumVitaeComponent,
     TopJumbotronComponent,
-    EmailComponent
+    EmailComponent,
+    WorkHistoryComponent
   ],
   imports: [
     BrowserModule,
